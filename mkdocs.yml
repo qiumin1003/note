@@ -1,11 +1,17 @@
 site_name: My Docs
 nav:
     - Home: index.md
-    - Ansible: ansible.md
-    - Docker: docker.md
-    - Python: python.md
-    - Prometheus: prometheus.md
-    - Kubernetes: kubernetes.md
+    - 学习考证:
+        - RHCE认证: redhat.md
+        - ACA认证: aca.md
+        - ACE认证: ace.md
+        - ACP认证: acp.md
+    - 业界流行:
+        - Ansible: ansible.md
+        - Docker: docker.md
+        - Python: python.md
+        - Prometheus: prometheus.md
+        - Kubernetes: kubernetes.md
     - 自动化部署:
         - 数据库: index1.md
         - 负载均衡: index2.md

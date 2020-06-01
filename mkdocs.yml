@@ -1,0 +1,18 @@
+site_name: My Docs
+nav:
+    - Home: index.md
+    - Docker: docker.md
+    - Ansible: ansible.md
+    - Kubernetes: Kubernetes.md
+    - 自动化部署:
+        - 数据库: index1.md
+        - 负载均衡: index2.md
+        - 消息队列: index3.md
+        - 存储系统: index4.md
+        - 搜索服务: index4.md
+        - 服务发现: index4.md
+        - 应用服务器: index5.md
+    - About:
+      - 'License': 'license.md'
+      - 'Release Notes': 'release-notes.md'
+theme: readthedocs

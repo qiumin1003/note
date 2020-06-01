@@ -18,7 +18,4 @@ nav:
     - 自动化部署:
         - 使用方法: db.md
         - 组件说明: comp.md
-    - About:
-      - 'License': 'license.md'
-      - 'Release Notes': 'release-notes.md'
 theme: readthedocs

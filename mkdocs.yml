@@ -22,4 +22,4 @@ nav:
 theme: material
 markdown_extensions:
     - toc:
-        baselevel: 2
+        baselevel: 3

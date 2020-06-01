@@ -46,6 +46,7 @@ ddd
 # 安装卸载
 
 ### 先决条件
+
 Docker cannot run correctly if your kernel is older than version 3.10 or if it is missing some modules
 
 &nbsp; &nbsp; &nbsp; &nbsp;To install Docker Engine - Community, you need a maintained version of CentOS 7. Archived versions aren’t supported or tested.
@@ -55,6 +56,7 @@ Docker cannot run correctly if your kernel is older than version 3.10 or if it i
 &nbsp; &nbsp; &nbsp; &nbsp;The overlay2 storage driver is recommended.
 
 ### yum 安装
+
 
 yum-utils provides the yum-config-manager utility
 
@@ -71,7 +73,7 @@ $ sudo docker run hello-world
 ```
 
 ### rpm 安装
-?> Go to https://download.docker.com/linux/centos/7/x86_64/stable/Packages/ and download the .rpm file
+ Go to https://download.docker.com/linux/centos/7/x86_64/stable/Packages/ and download the .rpm file
 ```
 $ curl -O https://download.docker.com/linux/centos/7/x86_64/stable/Packages/containerd.io-1.2.6-3.3.el7.x86_64.rpm   
 $ curl -O https://download.docker.com/linux/centos/7/x86_64/stable/Packages/docker-ce-19.03.4-3.el7.x86_64.rpm  
@@ -81,6 +83,7 @@ $ sudo systemctl start docker
 $ sudo docker run hello-world
 ```
 ### scripts 安装
+
 Using these scripts is not recommended for production environments
 ```
 $ curl -fsSL https://get.docker.com -o get-docker.sh
@@ -99,6 +102,7 @@ systemctl restart docker
 ```
 ## 卸载
 
+
 Older versions of Docker were called docker or docker-engine
 ```
 $ sudo yum remove docker \
@@ -110,6 +114,7 @@ $ sudo yum remove docker \
                   docker-logrotate \
                   docker-engine
 ```
+
 
 The Docker Engine - Community package is now called docker-ce
 
@@ -165,6 +170,7 @@ CONTAINER ID        IMAGE               COMMAND             CREATED             
 ```
 
 ### --restart=always
+
 即开机自启动
 ```
 [root@centos7 ~]# docker update --restart=always 7c369408716f d2f6179c97d9 2e2ceb8f19b3 28192ea1c749 04296bb5d928 395ab7429a51 2697588d9510 92753fceeecf
@@ -275,6 +281,7 @@ CONTAINER ID        IMAGE               COMMAND             CREATED             
 
 ## docker attach
 
+
 使用`Ctrl+q`进入容器并且不退出，如果按`Exit`则会停止容器
 
 ```
@@ -296,7 +303,7 @@ CONTAINER ID        IMAGE               COMMAND             CREATED             
 
 ## docker exec
 
-?> 与`docker attach`相比，`Exit`不会自动停止容器
+ 与`docker attach`相比，`Exit`不会自动停止容器
 
 ```
 [root@centos7 ~]# docker exec -i -t 54dfe06163f4 bash
@@ -531,6 +538,7 @@ A /root/.bash_history
 ## 导入导出镜像
 - docker export/import
 
+
 比如我们从一个 ubuntu 镜像启动一个容器，然后安装一些软件和进行一些设置后，使用 docker export 保存为一个基础镜像。然后，把这个镜像分发给其他人使用，将其作为基础的开发环境。
 
 ```
@@ -542,6 +550,7 @@ REPOSITORY                   TAG                   IMAGE ID            CREATED  
 newqiu                       latest                860dfa86a6c5        4 seconds ago       597MB
 ```
 - docker save/load
+
 
 如果我们的应用是使用 docker-compose.yml 编排的多个镜像组合，但我们要部署的客户服务器并不能连外网。这时就可以使用 docker save 将用到的镜像打个包，然后拷贝到客户服务器上使用 docker load 载入。
 
@@ -566,6 +575,7 @@ qiu111                       222                   860dfa86a6c5        9 minutes
 ```## Tomcat
 [官方镜像](https://hub.daocloud.io/repos/47f127d0-8f1d-4f91-9647-739cf3146a04)
 
+
 使用标签`latest`下载的也是`tomcat:8.5.47`
 
 ```shell
@@ -577,7 +587,7 @@ Using CATALINA_TMPDIR: /usr/local/tomcat/temp
 Using JRE_HOME:        /usr/local/openjdk-8
 ```
 
-?> 需将`jar`包`mount`到`webapp`目录,使用`docker logs -f`看日志
+ 需将`jar`包`mount`到`webapp`目录,使用`docker logs -f`看日志
 ```
 [root@centos7 ~]# docker run -v /root/docker/portal/webapps:/usr/local/tomcat/webapps -i -t -p 80:8080 tomcat:latest
 Using CATALINA_BASE:   /usr/local/tomcat
@@ -590,6 +600,7 @@ Using JRE_HOME:        /usr/local/openjdk-8
 
 ## Mysql
 [官方镜像](https://hub.docker.com/_/mysql)
+
 
 注意官方镜像是`mysql8.0`版本的,需要`pull 5.7.28`版本
 
@@ -737,6 +748,7 @@ STAT version 1.5.19
 ## Elasticsearch
 [官方镜像](https://www.elastic.co/guide/en/elasticsearch/reference/6.8/docker.html#docker)
 
+
 `elasticsearch`的`6.2`开始即内置了`x-pack`,如果需要使用`x-pack`，需使用`Dockfiles`定制镜像
 
 ```
@@ -751,6 +763,7 @@ a2746bd42a75        elasticsearch:6.8.4   "/usr/local/bin/dock…"   9 seconds a
 ## Kibana
 [官方镜像](https://www.elastic.co/guide/en/kibana/6.8/docker.html)
 
+
 如果`elasticsearch`配置了账号密码,需要修改`/usr/share/kibana/config/kibana.yml`
 
 
@@ -764,6 +777,7 @@ CONTAINER ID        IMAGE                 COMMAND                  CREATED      
 
 ## ActiveMQ
 [非官方镜像](https://hub.docker.com/r/rmohr/activemq)
+
 
 注意是非官方镜像，官方未提供docker安装包
 
@@ -780,17 +794,17 @@ d113209c5bd9        rmohr/activemq        "/bin/sh -c 'bin/act…"   8 seconds a
 # 配置网络
 
 ## bridge
+
 The default network driver
 > User-defined bridge networks are best when you need multiple containers to communicate on the same Docker host.
 
 ### User-defined bridge
+
 特点：
+
 - Containers connected to the same user-defined bridge network automatically expose all ports to each other, and no ports to the outside world. if you run the same application stack on the default bridge network, you need to open both the web port and the database port, using the `-p` or `--publish` flag for each
-
 - On a user-defined bridge network, containers can resolve each other by name or alias.
-
 - To remove a container from the default bridge network, you need to stop the container and recreate it with different network options.
-
 - If different groups of applications have different network requirements, you can configure each user-defined bridge separately, as you create it.
 
 创建bridge
@@ -820,21 +834,22 @@ b7e6804e6036        redis                 "docker-entrypoint.s…"   16 seconds 
 [root@centos7 ~]# docker run -d --link a2746bd42a75:elasticsearch -p 5601:5601 kibana:6.8.4
 ```
 ## host
+
 Use the host’s networking directly
 
 > Host is only available for swarm services on Docker 17.06 and higher.
 
-?> Host networks are best when the network stack should not be isolated from the Docker host, but you want other aspects of the container to be isolated.
+ Host networks are best when the network stack should not be isolated from the Docker host, but you want other aspects of the container to be isolated.
 
 ## overlay
 > You can also use overlay networks to facilitate communication between a swarm service and a standalone container, or between two standalone containers on different Docker daemons.
 
-?> Overlay networks are best when you need containers running on different Docker hosts to communicate, or when multiple applications work together using swarm services.
+ Overlay networks are best when you need containers running on different Docker hosts to communicate, or when multiple applications work together using swarm services.
 
 ## macvlan
 > Macvlan networks allow you to assign a MAC address to a container, making it appear as a physical device on your network
 
-?> Macvlan networks are best when you are migrating from a VM setup or need your containers to look like physical hosts on your network, each with a unique MAC address.
+ Macvlan networks are best when you are migrating from a VM setup or need your containers to look like physical hosts on your network, each with a unique MAC address.
 
 ## none
 > Disable all networking. Usually used in conjunction with a custom network driver.
@@ -845,18 +860,21 @@ Use the host’s networking directly
 
 # 存储与卷
 
-> 默认目录 `/var/lib/docker/volumes/`
+## volumes
 
+> 默认目录 `/var/lib/docker/volumes/`
 > A given volume can be mounted into multiple containers simultaneously
+
 
 However, in Docker 17.06 and higher, we recommend using the `--mount` flag.
 
 优势：
-1. Volumes are easier to back up or migrate than bind mounts.
-2. You can manage volumes using Docker CLI commands or the Docker API.
-3. Volumes work on both Linux and Windows containers.
-4. Volumes can be more safely shared among multiple containers.
-5. Volume drivers let you store volumes on remote hosts or cloud providers, to encrypt the contents of volumes, or to add other functionality.
+
+- Volumes are easier to back up or migrate than bind mounts.
+- You can manage volumes using Docker CLI commands or the Docker API.
+- Volumes work on both Linux and Windows containers.
+- Volumes can be more safely shared among multiple containers.
+- Volume drivers let you store volumes on remote hosts or cloud providers, to encrypt the contents of volumes, or to add other functionality.
 New volumes can have their content pre-populated by a containe
 
 语法：
@@ -879,11 +897,13 @@ f23b6ef97cb29d9fce47ff492dc03bd075310971ce2958da85d8f6ba99378ba3
 ## bind mounts
 > Bind mounts may be stored anywhere on the host system.
 
+
 &nbsp; &nbsp; &nbsp; &nbsp;One side effect of using bind mounts, for better or for worse, is that you can change the host filesystem via processes running in a container, including creating, modifying, or deleting important system files or directories. 
 
-?> If you use `-v` or `--volume` to bind-mount a file or directory that does not yet exist on the Docker host, `-v` creates the endpoint for you. It is always created as a directory.
+ If you use `-v` or `--volume` to bind-mount a file or directory that does not yet exist on the Docker host, `-v` creates the endpoint for you. It is always created as a directory.
 
-?> If you use `--mount` to bind-mount a file or directory that does not yet exist on the Docker host, Docker does not automatically create it for you, but generates an error.
+ If you use `--mount` to bind-mount a file or directory that does not yet exist on the Docker host, Docker does not automatically create it for you, but generates an error.
+
 
 为了避免混淆，建议使用`volume`的时候用`--mount`，用`bind mount`的时候用`-v`
 
@@ -897,7 +917,8 @@ a18d3d5bd06890e0a79cd99c2d89c21bbef208c2bf7c69b51cdb31cdb92bd0eb
 ## tmpfs
 > tmpfs mounts are stored in the host system’s memory only, and are never written to the host system’s filesystem.
 
-?> This functionality is only available if you’re running Docker on Linux.
+ This functionality is only available if you’re running Docker on Linux.
+
 
 为了避免混淆，建议使用`tmpfs`的时候用`--tmpfs`
 
@@ -910,15 +931,15 @@ c1d4b2aa19d3d8aa7e955b90f52598b9a61be678f7385eea8edd549e49f52677
 # Dockerfiles
 
 ### 描述
-?> 最简单的`dockerfiles`
+ 最简单的`dockerfiles`
 
-?> You use the -f flag with docker build to point to a Dockerfile anywhere in your file system
+ You use the -f flag with docker build to point to a Dockerfile anywhere in your file system
 
 ```
 $ docker build -f /path/to/a/Dockerfile .
 ```
 
-?> To tag the image into multiple repositories after the build, add multiple -t parameters when you run the build command
+ To tag the image into multiple repositories after the build, add multiple -t parameters when you run the build command
 
 ```
 $ docker build -t shykes/myapp:1.0.2 -t shykes/myapp:latest .
@@ -930,11 +951,11 @@ COPY /hello /
 RUN cat /hello
 ```
 ### FROM
-?> Whenever possible, use current official images as the basis for your images.
+ Whenever possible, use current official images as the basis for your images.
 ### LABEL
-?> You can add labels to your image to help organize images by project
+ You can add labels to your image to help organize images by project
 ### RUN
-?> Always combine RUN apt-get update with apt-get install in the same RUN statement.
+ Always combine RUN apt-get update with apt-get install in the same RUN statement.
 ```
 FROM alpine
 RUN export ADMIN_USER="mark" \
@@ -943,15 +964,16 @@ RUN export ADMIN_USER="mark" \
 CMD sh
 ```
 
+
 `pipe`
 
 ```
 RUN set -o pipefail && wget -O - https://some.site | wc -l > /number
 ```
 ### CMD
-?> The CMD instruction should be used to run the software contained by your image, along with any arguments.
+ The CMD instruction should be used to run the software contained by your image, along with any arguments.
 ### EXPOSE
-?> The EXPOSE instruction indicates the ports on which a container listens for connections. 
+ The EXPOSE instruction indicates the ports on which a container listens for connections. 
 ### ENV
 ```
 ENV PG_MAJOR 9.3
@@ -960,18 +982,20 @@ RUN curl -SL http://example.com/postgres-$PG_VERSION.tar.xz | tar -xJC /usr/src/
 ENV PATH /usr/local/postgres-$PG_MAJOR/bin:$PATH
 ```
 ### ADD or COPY
+
 the best use for ADD is local tar file auto-extraction into the image, as in `ADD rootfs.tar.xz /`.
-?> COPY the file package.json from your host to the present location (.) in your image (so in this case, to /usr/src/app/package.json)
+ COPY the file package.json from your host to the present location (.) in your image (so in this case, to /usr/src/app/package.json)
 ```
 COPY requirements.txt /tmp/
 RUN pip install --requirement /tmp/requirements.txt
 COPY . /tmp/
 ```
 ### ENTRYPOINT
-?> The best use for ENTRYPOINT is to set the image’s main command, allowing that image to be run as though it was that command 
+ The best use for ENTRYPOINT is to set the image’s main command, allowing that image to be run as though it was that command 
 ### VOLUME
-?> The VOLUME instruction should be used to expose any database storage area, configuration storage, or files/folders created by your docker container
+ The VOLUME instruction should be used to expose any database storage area, configuration storage, or files/folders created by your docker container
 ### USER
+
 If a service can run without privileges, use USER to change to a non-root user.
 ```
 RUN groupadd -r redis && useradd -r -g redis redis
@@ -979,10 +1003,12 @@ USER redis
 RUN [ "redis-server" ]
 ```
 ### WORKDIR
-?> For clarity and reliability, you should always use absolute paths for your WORKDIR. Also, you should use WORKDIR instead of proliferating instructions like `RUN cd … && do-something`, which are hard to read, troubleshoot, and maintain.
+
+ For clarity and reliability, you should always use absolute paths for your WORKDIR. Also, you should use WORKDIR instead of proliferating instructions like `RUN cd … && do-something`, which are hard to read, troubleshoot, and maintain.
+
 Use WORKDIR to specify that all subsequent actions should be taken from the directory /usr/src/app in your image filesystem (never the host’s filesystem).
 ### ONBUILD
-?> An ONBUILD command executes after the current Dockerfile build completes
+ An ONBUILD command executes after the current Dockerfile build completes
 
 ### 例子
 #### 构建elasticsearch
@@ -991,6 +1017,7 @@ FROM elasticsearch:6.8.4
 COPY elasticsearch-analysis-ik-6.8.4.zip /root
 RUN echo "y"|/usr/share/elasticsearch/bin/elasticsearch-plugin install file:///root/elasticsearch-analysis-ik-6.8.4.zip
 ```
+
 
 执行`docker build --tag=elastic-qiu .`
 

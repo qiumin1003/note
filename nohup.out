@@ -6407,3 +6407,405 @@ INFO    -  Reload 2 waiters: /Users/qiumin/OpsNotes/docs/docker.md
 INFO    -  Browser Connected: http://localhost:8000/docker/
 [I 200601 23:20:49 handlers:135] Browser Connected: http://localhost:8000/docker/#_7
 INFO    -  Browser Connected: http://localhost:8000/docker/#_7
+[I 200601 23:23:12 watcher:104] Running task: builder (delay: None)
+INFO    -  Running task: builder (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - standard/secure/README.md
+  - standard/secure/_sidebar.md
+  - standard/secure/application.md
+  - standard/secure/database.md
+  - standard/secure/introduction.md
+  - standard/secure/linux.md
+  - standard/secure/middleware.md
+  - standard/secure/network.md
+  - standard/secure/operating.md
+  - standard/secure/windows.md 
+WARNING -  A relative path to 'psychology.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'organizational.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'rh124.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'rh134.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'rh254.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'python.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'ELK.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'prometheus.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'kubernetes.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'db.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'comp.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/introduction.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/README.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/operating.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/network.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/linux.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/windows.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/database.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/middleware.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/application.md' which is not found in the documentation files. 
+[I 200601 23:23:13 handlers:95] Reload 2 waiters: /Users/qiumin/OpsNotes/docs/docker.md
+INFO    -  Reload 2 waiters: /Users/qiumin/OpsNotes/docs/docker.md
+[I 200601 23:23:14 handlers:135] Browser Connected: http://localhost:8000/docker/
+INFO    -  Browser Connected: http://localhost:8000/docker/
+[I 200601 23:23:14 handlers:135] Browser Connected: http://localhost:8000/docker/#_7
+INFO    -  Browser Connected: http://localhost:8000/docker/#_7
+[I 200601 23:25:19 watcher:104] Running task: builder (delay: None)
+INFO    -  Running task: builder (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - standard/secure/README.md
+  - standard/secure/_sidebar.md
+  - standard/secure/application.md
+  - standard/secure/database.md
+  - standard/secure/introduction.md
+  - standard/secure/linux.md
+  - standard/secure/middleware.md
+  - standard/secure/network.md
+  - standard/secure/operating.md
+  - standard/secure/windows.md 
+WARNING -  A relative path to 'psychology.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'organizational.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'rh124.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'rh134.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'rh254.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'python.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'ELK.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'prometheus.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'kubernetes.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'db.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'comp.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/introduction.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/README.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/operating.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/network.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/linux.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/windows.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/database.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/middleware.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/application.md' which is not found in the documentation files. 
+[I 200601 23:25:19 handlers:95] Reload 2 waiters: /Users/qiumin/OpsNotes/docs/docker.md
+INFO    -  Reload 2 waiters: /Users/qiumin/OpsNotes/docs/docker.md
+[I 200601 23:25:21 handlers:135] Browser Connected: http://localhost:8000/docker/#_7
+INFO    -  Browser Connected: http://localhost:8000/docker/#_7
+[I 200601 23:25:21 handlers:135] Browser Connected: http://localhost:8000/docker/
+INFO    -  Browser Connected: http://localhost:8000/docker/
+[I 200601 23:26:43 watcher:104] Running task: builder (delay: None)
+INFO    -  Running task: builder (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - standard/secure/README.md
+  - standard/secure/_sidebar.md
+  - standard/secure/application.md
+  - standard/secure/database.md
+  - standard/secure/introduction.md
+  - standard/secure/linux.md
+  - standard/secure/middleware.md
+  - standard/secure/network.md
+  - standard/secure/operating.md
+  - standard/secure/windows.md 
+WARNING -  A relative path to 'psychology.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'organizational.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'rh124.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'rh134.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'rh254.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'python.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'ELK.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'prometheus.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'kubernetes.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'db.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'comp.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/introduction.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/README.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/operating.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/network.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/linux.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/windows.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/database.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/middleware.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/application.md' which is not found in the documentation files. 
+[I 200601 23:26:43 handlers:95] Reload 2 waiters: /Users/qiumin/OpsNotes/docs/docker.md
+INFO    -  Reload 2 waiters: /Users/qiumin/OpsNotes/docs/docker.md
+[I 200601 23:26:45 handlers:135] Browser Connected: http://localhost:8000/docker/#tmpfs
+INFO    -  Browser Connected: http://localhost:8000/docker/#tmpfs
+[I 200601 23:26:45 handlers:135] Browser Connected: http://localhost:8000/docker/
+INFO    -  Browser Connected: http://localhost:8000/docker/
+[I 200601 23:26:48 handlers:135] Browser Connected: http://localhost:8000/docker/#elasticsearch_1
+INFO    -  Browser Connected: http://localhost:8000/docker/#elasticsearch_1
+[I 200601 23:27:18 watcher:104] Running task: builder (delay: None)
+INFO    -  Running task: builder (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - standard/secure/README.md
+  - standard/secure/_sidebar.md
+  - standard/secure/application.md
+  - standard/secure/database.md
+  - standard/secure/introduction.md
+  - standard/secure/linux.md
+  - standard/secure/middleware.md
+  - standard/secure/network.md
+  - standard/secure/operating.md
+  - standard/secure/windows.md 
+WARNING -  A relative path to 'psychology.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'organizational.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'rh124.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'rh134.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'rh254.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'python.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'ELK.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'prometheus.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'kubernetes.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'db.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'comp.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/introduction.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/README.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/operating.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/network.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/linux.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/windows.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/database.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/middleware.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/application.md' which is not found in the documentation files. 
+[I 200601 23:27:19 handlers:95] Reload 2 waiters: /Users/qiumin/OpsNotes/docs/docker.md
+INFO    -  Reload 2 waiters: /Users/qiumin/OpsNotes/docs/docker.md
+[I 200601 23:27:19 handlers:135] Browser Connected: http://localhost:8000/docker/#tmpfs
+INFO    -  Browser Connected: http://localhost:8000/docker/#tmpfs
+[I 200601 23:27:20 handlers:135] Browser Connected: http://localhost:8000/docker/#volumes
+INFO    -  Browser Connected: http://localhost:8000/docker/#volumes
+[I 200601 23:27:57 watcher:104] Running task: builder (delay: None)
+INFO    -  Running task: builder (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - standard/secure/README.md
+  - standard/secure/_sidebar.md
+  - standard/secure/application.md
+  - standard/secure/database.md
+  - standard/secure/introduction.md
+  - standard/secure/linux.md
+  - standard/secure/middleware.md
+  - standard/secure/network.md
+  - standard/secure/operating.md
+  - standard/secure/windows.md 
+WARNING -  A relative path to 'psychology.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'organizational.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'rh124.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'rh134.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'rh254.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'python.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'ELK.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'prometheus.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'kubernetes.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'db.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'comp.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/introduction.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/README.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/operating.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/network.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/linux.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/windows.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/database.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/middleware.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/application.md' which is not found in the documentation files. 
+[I 200601 23:27:58 handlers:95] Reload 2 waiters: /Users/qiumin/OpsNotes/docs/docker.md
+INFO    -  Reload 2 waiters: /Users/qiumin/OpsNotes/docs/docker.md
+[I 200601 23:28:00 handlers:135] Browser Connected: http://localhost:8000/docker/#tmpfs
+INFO    -  Browser Connected: http://localhost:8000/docker/#tmpfs
+[I 200601 23:28:00 handlers:135] Browser Connected: http://localhost:8000/docker/#volumes
+INFO    -  Browser Connected: http://localhost:8000/docker/#volumes
+[I 200601 23:29:05 watcher:104] Running task: builder (delay: None)
+INFO    -  Running task: builder (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - standard/secure/README.md
+  - standard/secure/_sidebar.md
+  - standard/secure/application.md
+  - standard/secure/database.md
+  - standard/secure/introduction.md
+  - standard/secure/linux.md
+  - standard/secure/middleware.md
+  - standard/secure/network.md
+  - standard/secure/operating.md
+  - standard/secure/windows.md 
+WARNING -  A relative path to 'psychology.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'organizational.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'rh124.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'rh134.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'rh254.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'python.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'ELK.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'prometheus.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'kubernetes.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'db.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'comp.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/introduction.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/README.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/operating.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/network.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/linux.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/windows.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/database.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/middleware.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/application.md' which is not found in the documentation files. 
+[I 200601 23:29:06 handlers:95] Reload 2 waiters: /Users/qiumin/OpsNotes/docs/docker.md
+INFO    -  Reload 2 waiters: /Users/qiumin/OpsNotes/docs/docker.md
+[I 200601 23:29:07 handlers:135] Browser Connected: http://localhost:8000/docker/#bridge
+INFO    -  Browser Connected: http://localhost:8000/docker/#bridge
+[I 200601 23:29:07 handlers:135] Browser Connected: http://localhost:8000/docker/#_4
+INFO    -  Browser Connected: http://localhost:8000/docker/#_4
+[I 200601 23:29:15 watcher:104] Running task: builder (delay: None)
+INFO    -  Running task: builder (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - standard/secure/README.md
+  - standard/secure/_sidebar.md
+  - standard/secure/application.md
+  - standard/secure/database.md
+  - standard/secure/introduction.md
+  - standard/secure/linux.md
+  - standard/secure/middleware.md
+  - standard/secure/network.md
+  - standard/secure/operating.md
+  - standard/secure/windows.md 
+WARNING -  A relative path to 'psychology.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'organizational.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'rh124.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'rh134.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'rh254.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'python.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'ELK.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'prometheus.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'kubernetes.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'db.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'comp.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/introduction.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/README.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/operating.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/network.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/linux.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/windows.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/database.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/middleware.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/application.md' which is not found in the documentation files. 
+[I 200601 23:29:15 handlers:95] Reload 2 waiters: /Users/qiumin/OpsNotes/docs/docker.md
+INFO    -  Reload 2 waiters: /Users/qiumin/OpsNotes/docs/docker.md
+[I 200601 23:29:16 handlers:135] Browser Connected: http://localhost:8000/docker/#bridge
+INFO    -  Browser Connected: http://localhost:8000/docker/#bridge
+[I 200601 23:29:16 handlers:135] Browser Connected: http://localhost:8000/docker/#_4
+INFO    -  Browser Connected: http://localhost:8000/docker/#_4
+[I 200601 23:30:30 watcher:104] Running task: builder (delay: None)
+INFO    -  Running task: builder (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - standard/secure/README.md
+  - standard/secure/_sidebar.md
+  - standard/secure/application.md
+  - standard/secure/database.md
+  - standard/secure/introduction.md
+  - standard/secure/linux.md
+  - standard/secure/middleware.md
+  - standard/secure/network.md
+  - standard/secure/operating.md
+  - standard/secure/windows.md 
+WARNING -  A relative path to 'psychology.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'organizational.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'rh124.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'rh134.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'rh254.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'python.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'ELK.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'prometheus.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'kubernetes.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'db.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'comp.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/introduction.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/README.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/operating.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/network.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/linux.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/windows.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/database.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/middleware.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/application.md' which is not found in the documentation files. 
+[I 200601 23:30:31 handlers:95] Reload 2 waiters: /Users/qiumin/OpsNotes/docs/docker.md
+INFO    -  Reload 2 waiters: /Users/qiumin/OpsNotes/docs/docker.md
+[I 200601 23:30:31 handlers:135] Browser Connected: http://localhost:8000/docker/#bridge
+INFO    -  Browser Connected: http://localhost:8000/docker/#bridge
+[I 200601 23:30:32 handlers:135] Browser Connected: http://localhost:8000/docker/#_4
+INFO    -  Browser Connected: http://localhost:8000/docker/#_4
+[I 200601 23:30:36 watcher:104] Running task: builder (delay: None)
+INFO    -  Running task: builder (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - standard/secure/README.md
+  - standard/secure/_sidebar.md
+  - standard/secure/application.md
+  - standard/secure/database.md
+  - standard/secure/introduction.md
+  - standard/secure/linux.md
+  - standard/secure/middleware.md
+  - standard/secure/network.md
+  - standard/secure/operating.md
+  - standard/secure/windows.md 
+WARNING -  A relative path to 'psychology.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'organizational.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'rh124.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'rh134.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'rh254.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'python.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'ELK.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'prometheus.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'kubernetes.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'db.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'comp.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/introduction.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/README.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/operating.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/network.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/linux.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/windows.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/database.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/middleware.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/application.md' which is not found in the documentation files. 
+[I 200601 23:30:37 handlers:95] Reload 2 waiters: /Users/qiumin/OpsNotes/docs/docker.md
+INFO    -  Reload 2 waiters: /Users/qiumin/OpsNotes/docs/docker.md
+[I 200601 23:30:38 handlers:135] Browser Connected: http://localhost:8000/docker/#_4
+INFO    -  Browser Connected: http://localhost:8000/docker/#_4
+[I 200601 23:30:38 handlers:135] Browser Connected: http://localhost:8000/docker/#bridge
+INFO    -  Browser Connected: http://localhost:8000/docker/#bridge
+[I 200601 23:31:53 watcher:104] Running task: builder (delay: None)
+INFO    -  Running task: builder (delay: None)
+INFO    -  Building documentation... 
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - standard/secure/README.md
+  - standard/secure/_sidebar.md
+  - standard/secure/application.md
+  - standard/secure/database.md
+  - standard/secure/introduction.md
+  - standard/secure/linux.md
+  - standard/secure/middleware.md
+  - standard/secure/network.md
+  - standard/secure/operating.md
+  - standard/secure/windows.md 
+WARNING -  A relative path to 'psychology.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'organizational.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'rh124.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'rh134.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'rh254.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'python.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'ELK.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'prometheus.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'kubernetes.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'db.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  A relative path to 'comp.md' is included in the 'nav' configuration, which is not found in the documentation files 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/introduction.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/README.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/operating.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/network.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/linux.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/windows.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/database.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/middleware.md' which is not found in the documentation files. 
+WARNING -  Documentation file 'standard/secure/_sidebar.md' contains a link to 'standard/secure/standard/secure/application.md' which is not found in the documentation files. 
+[I 200601 23:31:54 handlers:95] Reload 2 waiters: /Users/qiumin/OpsNotes/mkdocs.yml
+INFO    -  Reload 2 waiters: /Users/qiumin/OpsNotes/mkdocs.yml
+[I 200601 23:31:55 handlers:135] Browser Connected: http://localhost:8000/docker/#_4
+INFO    -  Browser Connected: http://localhost:8000/docker/#_4
+[I 200601 23:31:56 handlers:135] Browser Connected: http://localhost:8000/docker/#deault-bridge
+INFO    -  Browser Connected: http://localhost:8000/docker/#deault-bridge

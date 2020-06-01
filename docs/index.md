@@ -1,10 +1,14 @@
-# Welcome to MkDocs
+## 丘先生的知识库
+```
+每每拿起手机，总是不知打开一些什么是好,没有所谓的喜欢和不喜欢的人生大概就是这样
+```
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+`
+一直都有打算摸索md语法并写知识库的打算,但一直没一个合适的理由，趁着公司让我研究企业知识库，开始写了起来
+`
 
-## Commands
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+
+?> 踌躇满志，吃喝度日
+
+!> 无欲无求

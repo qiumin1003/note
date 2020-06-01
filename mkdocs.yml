@@ -1,7 +1,7 @@
 site_name: 运维成长之路
 nav:
     - Home: index.md
-    - 读书笔记:
+    - 阅读笔记:
         - 管理学: manager.md
         - 心理学: psychology.md
         - 组织行为学: organizational.md
@@ -19,4 +19,7 @@ nav:
     - 自动化部署:
         - 使用方法: db.md
         - 组件说明: comp.md
-theme: windmill
+theme: material
+markdown_extensions:
+    - toc:
+        baselevel: 2

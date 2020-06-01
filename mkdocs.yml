@@ -1,8 +1,8 @@
 site_name: My Docs
 nav:
     - Home: index.md
-    - Docker: docker.md
     - Ansible: ansible.md
+    - Docker: docker.md
     - Kubernetes: Kubernetes.md
     - 自动化部署:
         - 数据库: index1.md

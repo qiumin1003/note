@@ -13,6 +13,7 @@ nav:
         - Ansible: ansible.md
         - Docker: docker.md
         - Python: python.md
+        - ELK Stack: ELK.md
         - Prometheus: prometheus.md
         - Kubernetes: kubernetes.md
     - 自动化部署:

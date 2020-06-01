@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: 运维成长之路
 nav:
     - Home: index.md
     - 学习考证:
@@ -17,8 +17,8 @@ nav:
         - Prometheus: prometheus.md
         - Kubernetes: kubernetes.md
     - 自动化部署:
-        - 数据库: index1.md
-        - 负载均衡: index2.md
+        - 数据库: db.md
+        - 负载均衡: lb.md
         - 消息队列: index3.md
         - 存储系统: index4.md
         - 搜索服务: index4.md

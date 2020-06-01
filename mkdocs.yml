@@ -3,7 +3,9 @@ nav:
     - Home: index.md
     - Ansible: ansible.md
     - Docker: docker.md
-    - Kubernetes: Kubernetes.md
+    - Python: python.md
+    - Prometheus: prometheus.md
+    - Kubernetes: kubernetes.md
     - 自动化部署:
         - 数据库: index1.md
         - 负载均衡: index2.md

@@ -1,15 +1,18 @@
 site_name: 运维成长之路
 nav:
     - Home: index.md
-    - 学习考证:
-        - RHCE认证:
-            - RH124: rh124.md
-            - RH134: rh134.md
-            - RH254: rh254.md
-        - 阿里云认证:
-            - ACA认证: aca.md
-            - ACE认证: ace.md
-            - ACP认证: acp.md
+    - 读书笔记:
+        - 管理学: manager.md
+        - 心理学: psychology.md
+        - 组织行为学: organizational.md
+    - RHCE认证:
+        - RH124: rh124.md
+        - RH134: rh134.md
+        - RH254: rh254.md
+    - 阿里云认证:
+        - ACA认证: aca.md
+        - ACE认证: ace.md
+        - ACP认证: acp.md
     - 业界流行:
         - Ansible: ansible.md
         - Docker: docker.md

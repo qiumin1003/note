@@ -9,10 +9,6 @@ nav:
         - RH124: rh124.md
         - RH134: rh134.md
         - RH254: rh254.md
-    - 阿里云认证:
-        - ACA认证: aca.md
-        - ACE认证: ace.md
-        - ACP认证: acp.md
     - 业界流行:
         - Ansible: ansible.md
         - Docker: docker.md
@@ -20,13 +16,8 @@ nav:
         - Prometheus: prometheus.md
         - Kubernetes: kubernetes.md
     - 自动化部署:
-        - 数据库: db.md
-        - 负载均衡: lb.md
-        - 消息队列: index3.md
-        - 存储系统: index4.md
-        - 搜索服务: index4.md
-        - 服务发现: index4.md
-        - 应用服务器: index5.md
+        - 使用方法: db.md
+        - 组件说明: comp.md
     - About:
       - 'License': 'license.md'
       - 'Release Notes': 'release-notes.md'

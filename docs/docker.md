@@ -46,7 +46,7 @@ ddd
 # 安装卸载
 
 ### 先决条件
-!> Docker cannot run correctly if your kernel is older than version 3.10 or if it is missing some modules
+Docker cannot run correctly if your kernel is older than version 3.10 or if it is missing some modules
 
 &nbsp; &nbsp; &nbsp; &nbsp;To install Docker Engine - Community, you need a maintained version of CentOS 7. Archived versions aren’t supported or tested.
 
@@ -56,7 +56,7 @@ ddd
 
 ### yum 安装
 
-!> yum-utils provides the yum-config-manager utility
+yum-utils provides the yum-config-manager utility
 
 ```
 $ sudo yum install -y yum-utils \
@@ -81,7 +81,7 @@ $ sudo systemctl start docker
 $ sudo docker run hello-world
 ```
 ### scripts 安装
-!> Using these scripts is not recommended for production environments
+Using these scripts is not recommended for production environments
 ```
 $ curl -fsSL https://get.docker.com -o get-docker.sh
 $ sudo sh get-docker.sh
@@ -99,7 +99,7 @@ systemctl restart docker
 ```
 ## 卸载
 
-!> Older versions of Docker were called docker or docker-engine
+Older versions of Docker were called docker or docker-engine
 ```
 $ sudo yum remove docker \
                   docker-client \
@@ -111,7 +111,7 @@ $ sudo yum remove docker \
                   docker-engine
 ```
 
-!> The Docker Engine - Community package is now called docker-ce
+The Docker Engine - Community package is now called docker-ce
 
 ```
 $ sudo yum remove docker-ce
@@ -165,7 +165,7 @@ CONTAINER ID        IMAGE               COMMAND             CREATED             
 ```
 
 ### --restart=always
-!> 即开机自启动
+即开机自启动
 ```
 [root@centos7 ~]# docker update --restart=always 7c369408716f d2f6179c97d9 2e2ceb8f19b3 28192ea1c749 04296bb5d928 395ab7429a51 2697588d9510 92753fceeecf
 7c369408716f
@@ -275,7 +275,7 @@ CONTAINER ID        IMAGE               COMMAND             CREATED             
 
 ## docker attach
 
-!> 使用`Ctrl+q`进入容器并且不退出，如果按`Exit`则会停止容器
+使用`Ctrl+q`进入容器并且不退出，如果按`Exit`则会停止容器
 
 ```
 [root@centos7 ~]# docker ps
@@ -531,7 +531,7 @@ A /root/.bash_history
 ## 导入导出镜像
 - docker export/import
 
-!> 比如我们从一个 ubuntu 镜像启动一个容器，然后安装一些软件和进行一些设置后，使用 docker export 保存为一个基础镜像。然后，把这个镜像分发给其他人使用，将其作为基础的开发环境。
+比如我们从一个 ubuntu 镜像启动一个容器，然后安装一些软件和进行一些设置后，使用 docker export 保存为一个基础镜像。然后，把这个镜像分发给其他人使用，将其作为基础的开发环境。
 
 ```
 [root@centos7 elastic]# docker export 2e2ceb8f19b3 >abc.tar
@@ -543,7 +543,7 @@ newqiu                       latest                860dfa86a6c5        4 seconds
 ```
 - docker save/load
 
-!> 如果我们的应用是使用 docker-compose.yml 编排的多个镜像组合，但我们要部署的客户服务器并不能连外网。这时就可以使用 docker save 将用到的镜像打个包，然后拷贝到客户服务器上使用 docker load 载入。
+如果我们的应用是使用 docker-compose.yml 编排的多个镜像组合，但我们要部署的客户服务器并不能连外网。这时就可以使用 docker save 将用到的镜像打个包，然后拷贝到客户服务器上使用 docker load 载入。
 
 ```
 [root@centos7 elastic]# docker image ls
@@ -566,7 +566,7 @@ qiu111                       222                   860dfa86a6c5        9 minutes
 ```## Tomcat
 [官方镜像](https://hub.daocloud.io/repos/47f127d0-8f1d-4f91-9647-739cf3146a04)
 
-!> 使用标签`latest`下载的也是`tomcat:8.5.47`
+使用标签`latest`下载的也是`tomcat:8.5.47`
 
 ```shell
 [root@centos7 ~]# docker pull tomcat:8.5.47-jdk8-openjdk
@@ -591,7 +591,7 @@ Using JRE_HOME:        /usr/local/openjdk-8
 ## Mysql
 [官方镜像](https://hub.docker.com/_/mysql)
 
-!> 注意官方镜像是`mysql8.0`版本的,需要`pull 5.7.28`版本
+注意官方镜像是`mysql8.0`版本的,需要`pull 5.7.28`版本
 
 ```
 [root@centos7 conf]# docker pull mysql:5.7.28
@@ -737,7 +737,7 @@ STAT version 1.5.19
 ## Elasticsearch
 [官方镜像](https://www.elastic.co/guide/en/elasticsearch/reference/6.8/docker.html#docker)
 
-!> `elasticsearch`的`6.2`开始即内置了`x-pack`,如果需要使用`x-pack`，需使用`Dockfiles`定制镜像
+`elasticsearch`的`6.2`开始即内置了`x-pack`,如果需要使用`x-pack`，需使用`Dockfiles`定制镜像
 
 ```
 [root@centos7 ]# docker pull elasticsearch:6.8.4
@@ -751,7 +751,7 @@ a2746bd42a75        elasticsearch:6.8.4   "/usr/local/bin/dock…"   9 seconds a
 ## Kibana
 [官方镜像](https://www.elastic.co/guide/en/kibana/6.8/docker.html)
 
-!> 如果`elasticsearch`配置了账号密码,需要修改`/usr/share/kibana/config/kibana.yml`
+如果`elasticsearch`配置了账号密码,需要修改`/usr/share/kibana/config/kibana.yml`
 
 
 ```
@@ -765,7 +765,7 @@ CONTAINER ID        IMAGE                 COMMAND                  CREATED      
 ## ActiveMQ
 [非官方镜像](https://hub.docker.com/r/rmohr/activemq)
 
-!> 注意是非官方镜像，官方未提供docker安装包
+注意是非官方镜像，官方未提供docker安装包
 
 ```
 [root@centos7 ~]# docker run -d -p 61616:61616 -p 8161:8161 rmohr/activemq
@@ -780,7 +780,7 @@ d113209c5bd9        rmohr/activemq        "/bin/sh -c 'bin/act…"   8 seconds a
 # 配置网络
 
 ## bridge
-!> The default network driver
+The default network driver
 > User-defined bridge networks are best when you need multiple containers to communicate on the same Docker host.
 
 ### User-defined bridge
@@ -820,7 +820,7 @@ b7e6804e6036        redis                 "docker-entrypoint.s…"   16 seconds 
 [root@centos7 ~]# docker run -d --link a2746bd42a75:elasticsearch -p 5601:5601 kibana:6.8.4
 ```
 ## host
-!> Use the host’s networking directly
+Use the host’s networking directly
 
 > Host is only available for swarm services on Docker 17.06 and higher.
 
@@ -849,7 +849,7 @@ b7e6804e6036        redis                 "docker-entrypoint.s…"   16 seconds 
 
 > A given volume can be mounted into multiple containers simultaneously
 
-!> However, in Docker 17.06 and higher, we recommend using the `--mount` flag.
+However, in Docker 17.06 and higher, we recommend using the `--mount` flag.
 
 优势：
 1. Volumes are easier to back up or migrate than bind mounts.
@@ -879,13 +879,13 @@ f23b6ef97cb29d9fce47ff492dc03bd075310971ce2958da85d8f6ba99378ba3
 ## bind mounts
 > Bind mounts may be stored anywhere on the host system.
 
-!> &nbsp; &nbsp; &nbsp; &nbsp;One side effect of using bind mounts, for better or for worse, is that you can change the host filesystem via processes running in a container, including creating, modifying, or deleting important system files or directories. 
+&nbsp; &nbsp; &nbsp; &nbsp;One side effect of using bind mounts, for better or for worse, is that you can change the host filesystem via processes running in a container, including creating, modifying, or deleting important system files or directories. 
 
 ?> If you use `-v` or `--volume` to bind-mount a file or directory that does not yet exist on the Docker host, `-v` creates the endpoint for you. It is always created as a directory.
 
 ?> If you use `--mount` to bind-mount a file or directory that does not yet exist on the Docker host, Docker does not automatically create it for you, but generates an error.
 
-!> 为了避免混淆，建议使用`volume`的时候用`--mount`，用`bind mount`的时候用`-v`
+为了避免混淆，建议使用`volume`的时候用`--mount`，用`bind mount`的时候用`-v`
 
 例子：
 ```
@@ -899,7 +899,7 @@ a18d3d5bd06890e0a79cd99c2d89c21bbef208c2bf7c69b51cdb31cdb92bd0eb
 
 ?> This functionality is only available if you’re running Docker on Linux.
 
-!> 为了避免混淆，建议使用`tmpfs`的时候用`--tmpfs`
+为了避免混淆，建议使用`tmpfs`的时候用`--tmpfs`
 
 例子：
 ```
@@ -943,7 +943,7 @@ RUN export ADMIN_USER="mark" \
 CMD sh
 ```
 
-!> `pipe`
+`pipe`
 
 ```
 RUN set -o pipefail && wget -O - https://some.site | wc -l > /number
@@ -960,7 +960,7 @@ RUN curl -SL http://example.com/postgres-$PG_VERSION.tar.xz | tar -xJC /usr/src/
 ENV PATH /usr/local/postgres-$PG_MAJOR/bin:$PATH
 ```
 ### ADD or COPY
-!> the best use for ADD is local tar file auto-extraction into the image, as in `ADD rootfs.tar.xz /`.
+the best use for ADD is local tar file auto-extraction into the image, as in `ADD rootfs.tar.xz /`.
 ?> COPY the file package.json from your host to the present location (.) in your image (so in this case, to /usr/src/app/package.json)
 ```
 COPY requirements.txt /tmp/
@@ -972,7 +972,7 @@ COPY . /tmp/
 ### VOLUME
 ?> The VOLUME instruction should be used to expose any database storage area, configuration storage, or files/folders created by your docker container
 ### USER
-!> If a service can run without privileges, use USER to change to a non-root user.
+If a service can run without privileges, use USER to change to a non-root user.
 ```
 RUN groupadd -r redis && useradd -r -g redis redis
 USER redis
@@ -980,7 +980,7 @@ RUN [ "redis-server" ]
 ```
 ### WORKDIR
 ?> For clarity and reliability, you should always use absolute paths for your WORKDIR. Also, you should use WORKDIR instead of proliferating instructions like `RUN cd … && do-something`, which are hard to read, troubleshoot, and maintain.
-!> Use WORKDIR to specify that all subsequent actions should be taken from the directory /usr/src/app in your image filesystem (never the host’s filesystem).
+Use WORKDIR to specify that all subsequent actions should be taken from the directory /usr/src/app in your image filesystem (never the host’s filesystem).
 ### ONBUILD
 ?> An ONBUILD command executes after the current Dockerfile build completes
 
@@ -992,7 +992,7 @@ COPY elasticsearch-analysis-ik-6.8.4.zip /root
 RUN echo "y"|/usr/share/elasticsearch/bin/elasticsearch-plugin install file:///root/elasticsearch-analysis-ik-6.8.4.zip
 ```
 
-!> 执行`docker build --tag=elastic-qiu .`
+执行`docker build --tag=elastic-qiu .`
 
 ```
 docker run -t -i -p 9900:9200 -p 9800:9300 -e "discovery.type=single-node" elastic-qiu

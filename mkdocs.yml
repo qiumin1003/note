@@ -19,7 +19,9 @@ nav:
     - 自动化部署:
         - 使用方法: db.md
         - 组件说明: comp.md
-theme: material
+theme: windmill
 markdown_extensions:
     - toc:
-        baselevel: 3
+        baselevel: 1
+
+# mkdocs, readthedocs, windmill, rtd-dropdown, material, ivory
